@@ -22,6 +22,11 @@
           var left = parseInt(leftNumbers, 10)
           doger.style.left = `${left - 1}px`
         }
+        else if (e.key === 'd') {
+          var rightNumbers = dodger.style.right.replace('px','')
+          var right = parseInt(leftNumbers, 10)
+          doger.style.right = `${right - 1}px`
+        }
       })
     </script>
   </body>
